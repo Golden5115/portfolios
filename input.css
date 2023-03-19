@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero{
+    background: linear-gradient(90deg, #00040F 41.33%, rgba(8, 0, 24, 0.87) 89.06%, rgba(1, 6, 48, 0.85) 98.57%);
+}
+.about{
+    background: linear-gradient(180deg, #383672 0%, #281145 57.52%);
+}
+.skills{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
