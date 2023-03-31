@@ -10,30 +10,33 @@
 
 </head>
 <body>
-    <div class="wrapper ">
-        <div class="hero h-[900px] w-[1590px] pt-[37px] overflow-hidden">
-            <nav class="w-[1267px] h-[51px] ml-[20vh] flex justify-between  items-center static bg-[black] " >
-                <div class="logo text-[#00E0FF] text-center  font-[800] text-[20px] h-[40px] w-[196px] bg-[#111E20] rounded-[10px]">Engr <span class="text-[#52FF00]">Golden</span>
+    <div class="wrapper sm:w-[428px]">
+        <div class="hero h-[900px] sm:h-[700px] w-[1590px] pt-[37px] sm:pt-[0px] overflow-hidden sm:w-[428px] ">
+            <nav class="w-[1267px] sm:w-[428px] h-[51px] sm:h-[100px] ml-[20vh] sm:ml-[0vh]  flex justify-between  items-center sm:items-end static bg-[black] sm:bg-[blue] " >
+                <div class="logo text-[#00E0FF] text-center sm:pt-[5px]  font-[800] text-[20px] sm:text-[16px] h-[40px] w-[196px] sm:w-[139px] bg-[#111E20] rounded-[10px]">Engr <span class="text-[#52FF00]">Golden</span>
                 </div>
 
-                <ul class="text-white flex gap-[50px] items-center pr-[50px]">
-                    <li class="hover:text-[#52FF00] hover:font-[700]"><a href="#"> HOME</a></li>
-                    <li class="hover:text-[#52FF00] hover:font-[700]"><a href="#">KNOW ME</a></li>
-                    <li class="hover:text-[#52FF00] hover:font-[700]"><a href="#">RESUME</a></li>
-                    <li class="hover:text-[#52FF00] hover:font-[700]"><a href="#">PROJECTS</a></li>
+                <div class="hidden sm:contents"  >
+                    <img src="images/hamburger.png" alt="" class="toggle">
+                </div>
+                <ul class="navBar text-white flex gap-[50px] items-center pr-[50px] overflow-hidden hide">
+                    <li class="hover:text-[#52FF00] hover:font-[700] home"><a href="#"> HOME</a></li>
+                    <li class="hover:text-[#52FF00] hover:font-[700] know me"><a href="#">KNOW ME</a></li>
+                    <li class="hover:text-[#52FF00] hover:font-[700] resume"><a href="#">RESUME</a></li>
+                    <li class="hover:text-[#52FF00] hover:font-[700] project"><a href="#">PROJECTS</a></li>
                 </ul>
             </nav>
 
-            <div class="flex  h-[120vh]">
-                <div class="w-[50%] ">
-                    <h6 class="mt-[90px] ml-[160px] pt-[10px] w-[141px] h-[63px] text-center bg-[#0CFFE2] rounded-[20px] font-[600] text-[23px]">Hello, I'am</h6>
-                    <h1 class="font-[800] text-[40px] text-[#FF0B80] ml-[160px] mt-[5vh]"> < AYOOLA ABIODUN <BR>AYOMIDE /></BR></h1>
-                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] items-center mt-[50px]"> <img src="images/star.png" alt=""> MECHANICAL ENGINEER</h2>
-                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] items-center mt-[30px]"> <img src="images/star.png" alt=""> FRONTEND DEVELOPER</h2>
-                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] items-center mt-[30px]"> <img src="images/star.png" alt=""> WEB DESIGNER</h2>
+            <div class="flex  h-[120vh] sm:block">
+                <div class="w-[50%] sm:[100%]">
+                    <h6 class="mt-[40px] ml-[160px]  pt-[10px] w-[141px] h-[63px] text-center bg-[#0CFFE2] rounded-[20px] font-[600] text-[23px] ">Hello, I'am</h6>
+                    <h1 class="font-[800] text-[40px] sm:text-[32px] text-[#FF0B80] ml-[160px] sm:ml-[40px] sm:w-[341px] mt-[5vh] sm:text-center"> < AYOOLA ABIODUN <BR>AYOMIDE /></BR></h1>
+                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] sm:ml-[45px] items-center mt-[50px] sm:w-[342px]"> <img src="images/star.png" alt=""> MECHANICAL ENGINEER</h2>
+                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] sm:ml-[45px] items-center mt-[30px] sm:w-[342px]"> <img src="images/star.png" alt=""> FRONTEND DEVELOPER</h2>
+                    <h2 class="flex gap-[10px] font-[800] text-[24px] text-[#0CFFE2]  ml-[160px] sm:ml-[45px] items-center mt-[30px] sm:w-[342px]"> <img src="images/star.png" alt=""> WEB DESIGNER</h2>
 
-                    <div class=" flex gap-[40px] ml-[200px] mt-[25vh]">
-                        <img src="images/ic_outline-facebook.png" alt="">
+                    <div class=" flex gap-[40px] ml-[200px] mt-[25vh] sm:mt-[10vh] sm:ml-[45px]">
+                        <img  src="images/ic_outline-facebook.png" alt="">
                         <img src="images/mdi_linkedin.png" alt="">
                         <img src="images/mdi_instagram.png" alt="">
                         <img src="images/ic_baseline-whatsapp.png" alt="">
@@ -42,27 +45,26 @@
 
                 </div>
 
-                <div class="w-[50%]  overflow-hidden">
+                <div class="w-[50%]  overflow-hidden sm:hidden">
                     <img src="images/WhatsApp Image 2023-02-12 at 8.54 2.png " alt="" class="ml-[20vh] mt-[14vh] ">
                 </div>
 
             </div>
         </div>
 
-        <div class=" flex about h-[500px] w-[1590px] pt-[37px] gap-[200px] pt-[50px]">
-            <img src="images/about image.png" alt="" class="w-[250px] h-[260px] ml-[160px]">
-            <div class="pr-[160px] text-[#D9D9D9]">
-                <div class="aboutMe">
-                <h3 class="font-[800] text-[34px] text-[#FFC331]">aboutMe()</h3>
-                <p class="font-[400] text-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse nec dolor tortor.
-                    Praesent a cursus enim, auctor fermentum enim. Nam dapibus felis nec ultrices 
-                    vestibulum. Curabitur lobortis, risus eu porta rutrum, sem magna vulputate elit, non 
-                    auctor nunc purus id eros. Cras sodales dictum magna, quis facilisis ex 
-                    finibus nec.  Praesent ligula eros, euismod id egestas a, tristique sit amet lorem.</p>
+        <div class=" flex about h-[500px] sm:h-[700px] w-[1590px] pt-[37px] gap-[200px] pt-[50px] sm:w-[428px] sm:block sm:pt-[20px]">
+            <img src="images/about image.png" alt="" class="w-[250px] h-[260px] ml-[160px] sm:h-[160px] sm:w-[158px]">
+            <div class=" text-[#D9D9D9]">
+                <div class="aboutMe sm:ml-[20px] sm:text-center">
+                <h3 class="font-[800] text-[34px] text-[#FFC331] sm:font-[700]">aboutMe()</h3>
+                <p class="font-[400] text-[20px]">I am a hard-working and driven individual who isn't afraid to face a challenge. 
+                    I'm passionate about my work and I know how to get the job done. 
+                    I would describe myself as an open and honest person who doesn't 
+                    believe in misleading other people and tries to be fair in everything I do..</p>
                 </div>
 
-                <div class="contactDetails mt-[50px] ">
-                    <h3 class="font-[800] text-[34px] text-[#FFC331]">contactDetails()</h3>
+                <div class="contactDetails mt-[50px] sm:ml-[20px] sm:text-center ">
+                    <h3 class="font-[800] text-[34px] text-[#FFC331] sm:font-[700]">contactDetails()</h3>
                     <p class="font-[400] text-[20px]">Ayoola Abiodun</p>
                     <p><span class="font-[600]">Email:</span> ayomide.ayoola91@gmai.com</p>
                     <p><span class="font-[600]">Tel:</span> 09051156866, 08143682393</p>
@@ -70,18 +72,23 @@
             </div>
         </div>
 
-        <div class=" text-center about h-[500px] w-[1590px] pt-[37px] gap-[200px] pt-[50px]">
-            <h1 class=" skills rounded-[20px]  text-center h-[50px] ml-[160px] mr-[160px] font-[600] text-[200] ">SKILLS</h1>
-            <div class="flex gap-[40px]  ml-[300px] mr-[300px] items-center pl-[30vh]">
-                <img src="images/logos_figma.png" alt="">
-                <img src="images/logos_html-5.png" alt="">
-                <img src="images/logos_css-3.png" alt="">
-                <img src="images/Vector.png" alt="">
-                <img src="images/logos_python.png" alt="">
+        <div class=" text-center about h-[500px] w-[1590px] pt-[37px] gap-[200px] pt-[50px] sm:w-[428px] ">
+            <h1 class=" skills rounded-[20px]  text-center h-[50px] ml-[160px] mr-[160px] font-[600] text-[200]  ">SKILLS</h1>
+            <div class="flex gap-[40px]  ml-[300px] mr-[300px] items-center pl-[30vh] sm:ml-[0px] sm:pl-[0px] sm:gap-[30px] ">
+                <img src="images/logos_figma.png" alt="" class="sm:w-[61px]">
+                <img src="images/logos_html-5.png" alt="" class="sm:w-[61px]">
+                <img src="images/logos_css-3.png" alt="" class="sm:w-[61px]">
+                <img src="images/Vector.png" alt="" class="sm:w-[61px]">
+                <img src="images/logos_python.png" alt="" class="sm:w-[61px]">
             </div>
-
+            <div>
+                <h1>PROJECTS</h1>
+            </div>
         </div>
+
+
     </div>
     
 </body>
+ <script src="app.js"></script>
 </html>
